@@ -21,7 +21,7 @@
     selected-urgent-foreground: @foreground;
 
     background-color: @background;
-    background: {background};
+    background: {background}20;
     foreground: {foreground};
     border-color: @background;
     spacing: 2;
@@ -36,12 +36,14 @@
 #mainbox {{
     border: 0;
     padding: 0;
+    background-color: rgba(0, 0, 0, 0%);
 }}
 
 #message {{
     border: 2px 0px 0px;
     border-color: @border-color;
     padding: 1px;
+    background-color: rgba(0, 0, 0, 0%);
 }}
 
 #textbox {{
@@ -79,17 +81,17 @@
 }}
 
 #element.normal.normal {{
-    background-color: @normal-background;
+    background-color: rgba(0,0,0,0%);
     text-color: @normal-foreground;
 }}
 
 #element.normal.urgent {{
-    background-color: @urgent-background;
+    background-color: rgba(0,0,0,0%);
     text-color: @urgent-foreground;
 }}
 
 #element.normal.active {{
-    background-color: @active-background;
+    background-color: rgba(0,0,0,0%);
     text-color: @active-foreground;
 }}
 
@@ -109,7 +111,7 @@
 }}
 
 #element.alternate.normal {{
-    background-color: @alternate-normal-background;
+    background-color: rgba(0,0,0,0%);
     text-color: @alternate-normal-foreground;
 }}
 
